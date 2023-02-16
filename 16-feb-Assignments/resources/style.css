@@ -1,0 +1,49 @@
+*
+{
+    padding:0;
+    margin:0;
+}
+h1{
+    text-transform: uppercase;
+    color:#250AD7;
+    padding-bottom:25px;
+    
+}
+
+ul{
+    padding-bottom:25px;
+    padding-left:25px;
+}
+button{
+    background-color: #4418D5;
+    border-radius: 20px;
+    text-transform: uppercase;
+    color: white;
+    padding:10px;
+}
+
+.image-section
+{
+    display: inline-block;
+    
+}
+
+.information
+{
+    display: inline-block ;
+    margin-left: 50px;
+    position: absolute;
+    padding-top:100px ;
+    
+}
+
+img{
+    display:inline-block;
+    height:350px;
+    width:600px;
+    margin:30px;
+}
+
+section{
+    
+}
