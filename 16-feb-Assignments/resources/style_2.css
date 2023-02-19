@@ -1,0 +1,51 @@
+*
+{
+    padding:0;
+    margin:0;
+}
+:root{
+    --background-color:#D6CA9E;
+    --author-color:#EE1B0A;
+    --imageSection-border:#000000;
+}
+.imageGallary
+{
+    background-color: var(--background-color);
+}
+
+p{
+    font-size: 12px;
+    display: block;
+}
+
+.author__name
+{
+    color:var(--author-color);
+    display:inline-block;
+    margin-bottom: 15px;
+    margin-top:10px;
+}
+
+
+
+.imageGallary__section
+{
+    border: 1px var(--imageSection-border) solid;
+    display: inline-block;
+    margin:10px;
+    padding:10px;
+}
+.imageGallary__section__content{
+    margin-bottom: 50px;
+}
+
+.imageGallary__section  div{
+    padding:2px;
+    
+}
+.branch
+{
+    text-align: right;
+   margin-top:-45px;
+   
+}
