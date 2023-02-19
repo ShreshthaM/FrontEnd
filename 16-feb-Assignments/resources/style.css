@@ -3,47 +3,54 @@
     padding:0;
     margin:0;
 }
+:root{
+    --heading-color:#250AD7;
+    --anchor-background:#4418D5;
+    --background-color:#E3DFDF;
+}
+.heroImage
+{
+    background-color: var(--background-color);
+}
 h1{
     text-transform: uppercase;
-    color:#250AD7;
-    padding-bottom:25px;
-    
+    color:var(--heading-color);
+    padding-bottom:20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
 }
 
-ul{
-    padding-bottom:25px;
-    padding-left:25px;
-}
-button{
-    background-color: #4418D5;
-    border-radius: 20px;
-    text-transform: uppercase;
-    color: white;
-    padding:10px;
-}
-
-.image-section
+.heroImage-content
 {
     display: inline-block;
-    
+    margin-left:70px;
+    vertical-align: middle;
 }
 
-.information
+.heroImage-container
 {
-    display: inline-block ;
-    margin-left: 50px;
-    position: absolute;
-    padding-top:100px ;
-    
-}
-
-img{
     display:inline-block;
-    height:350px;
-    width:600px;
-    margin:30px;
+    vertical-align: middle;
+    margin:25px;
+}
+.heroImage-content ul{
+    list-style-type: none;
+    list-style-image: url('https://www.w3schools.com/cssref/sqpurple.gif');
+    margin-left:15px;
+    margin-bottom:25px;
+}
+.heroImage-content ul li{
+    padding:2px;
 }
 
-section{
-    
+.heroImage-content > a{
+    background-color: #4418D5;
+    border-radius: 20px;
+    color: white;
+    padding:10px;
+    text-decoration: none;
+}
+ a :hover{
+    background-color: red;
+   
 }
