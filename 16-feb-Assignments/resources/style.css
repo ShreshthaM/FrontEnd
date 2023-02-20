@@ -30,7 +30,7 @@ h1{
 .heroImage-container
 {
     display:inline-block;
-    vertical-align: middle;
+    vertical-align: middle; /*alignments through flex*/
     margin:25px;
 }
 .heroImage-content ul{
@@ -44,7 +44,7 @@ h1{
 }
 
 .heroImage-content > a{
-    background-color: #4418D5;
+    background-color: var(--anchor-background);
     border-radius: 20px;
     color: white;
     padding:10px;
